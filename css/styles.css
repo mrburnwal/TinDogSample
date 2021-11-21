@@ -1,0 +1,157 @@
+a,
+p {
+    font-family: 'Montserrat-Black', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+    color: white;
+}
+
+h2 {
+    font-family: 'Montserrat-Bold';
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: bold;
+    color: white;
+}
+
+p {
+    font-family: 'Montserrat';
+    color: #8f8f8f;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 20px;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+.container-fluid {
+    padding: 5% 15%;
+    padding-bottom: 6%;
+}
+
+#title {
+    background-color: #ff4c68;
+}
+
+#title-font {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.navbar {
+    padding: 0 0 4.5rem 0;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+#features {
+    padding: 6% 15%;
+    position: relative;
+    background-color: #fff;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+
+/* #testimonials {
+    padding: 6% 15%;
+    background-color: #ef8172;
+    text-align: center;
+    color: white;
+} */
+
+.testimonial-image {
+    height: 110px;
+    width: 110px;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.press-logo {
+    width: 10%;
+    margin: auto 3%;
+}
+
+.carousel-inner {
+    padding: 6% 15%;
+    background-color: #ef8172;
+    text-align: center;
+    color: white;
+}
+
+#pricing {
+    text-align: center;
+    margin: 5%;
+}
+
+.card {
+    margin: 3%;
+}
+
+.title-image {
+    width: 60%;
+    transform: rotate(30deg);
+    position: absolute;
+    right: 30%;
+}
+
+@media (max-width:880px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        transform: rotate(0);
+        position: static;
+    }
+}
+
+#cta {
+    background-color: #ff4c68;
+    font-family: 'Montserrat';
+    text-align: center;
+    padding: 2% 15%;
+    padding-bottom: 0;
+    color: white;
+    line-height: 1.5;
+    font-size: 2rem;
+}
+
+#bottom-download-button {
+    margin-top: 1%;
+}
+
+#footer {
+    text-align: center;
+    margin: 1%;
+}
+
+.footer-icon {
+    margin: 10px 10px;
+}
