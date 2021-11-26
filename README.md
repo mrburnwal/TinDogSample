@@ -1,2 +1,2 @@
 # TinDogSample
-mrburnwal.github.io/TinDogSample
+'mrburnwal.github.io/TinDogSample'
